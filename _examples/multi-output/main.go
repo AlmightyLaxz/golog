@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/kataras/golog"
+	"github.com/almightylaxz/golog"
 )
 
 func main() {

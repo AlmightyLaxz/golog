@@ -36,7 +36,7 @@ type Logger struct {
 	//
 	// Note that this will not override the time and level prefix,
 	// if you want to customize the log message please read the examples
-	// or navigate to: https://github.com/kataras/golog/issues/3#issuecomment-355895870.
+	// or navigate to: https://github.com/almightylaxz/golog/issues/3#issuecomment-355895870.
 	NewLine  bool
 	mu       sync.Mutex
 	Printer  *pio.Printer

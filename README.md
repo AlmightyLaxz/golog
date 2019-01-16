@@ -6,9 +6,9 @@ _golog_ is a simple, fast and easy-to-use level-based logger written entirely in
 
 [![build status](https://img.shields.io/travis/kataras/golog/master.svg?style=flat-square)](https://travis-ci.org/kataras/golog)
 [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/kataras/golog)
-[![godocs](https://img.shields.io/badge/online-documentation-0366d6.svg?style=flat-square)](https://godoc.org/github.com/kataras/golog)
-[![github issues](https://img.shields.io/github/issues/kataras/golog.svg?style=flat-square)](https://github.com/kataras/golog/issues?q=is%3Aopen+is%3Aissue)
-<!-- [![issue stats](https://img.shields.io/issuestats/i/github/kataras/golog.svg?style=flat-square)](https://github.com/kataras/golog/issues) -->
+[![godocs](https://img.shields.io/badge/online-documentation-0366d6.svg?style=flat-square)](https://godoc.org/github.com/almightylaxz/golog)
+[![github issues](https://img.shields.io/github/issues/kataras/golog.svg?style=flat-square)](https://github.com/almightylaxz/golog/issues?q=is%3Aopen+is%3Aissue)
+<!-- [![issue stats](https://img.shields.io/issuestats/i/github/kataras/golog.svg?style=flat-square)](https://github.com/almightylaxz/golog/issues) -->
 
 ### 🥇 Features
 
@@ -30,7 +30,7 @@ Navigate through [_examples](_examples/) and [integrations](_examples/integratio
 The only requirement is the Go Programming Language[*](https://golang.org).
 
 ```bash
-$ go get github.com/kataras/golog
+$ go get github.com/almightylaxz/golog
 ```
 
 > golog is fairly built on top of the [pio library](https://github.com/kataras/pio), it has no more external dependencies.
@@ -39,7 +39,7 @@ $ go get github.com/kataras/golog
 package main
 
 import (
-    "github.com/kataras/golog"
+    "github.com/almightylaxz/golog"
 )
 
 func main() {
@@ -88,7 +88,7 @@ Click [here](_benchmarks) for details.
 
 ### 👥 Contributing
 
-If you find that something is not working as expected please open an [issue](https://github.com/kataras/golog/issues).
+If you find that something is not working as expected please open an [issue](https://github.com/almightylaxz/golog/issues).
 
 ### 📦 Projects using golog
 
@@ -96,7 +96,7 @@ If you find that something is not working as expected please open an [issue](htt
 | -----------|--------|-------------|
 | [iris](https://github.com/kataras/iris) | [Gerasimos Maropoulos](https://github.com/kataras) | The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready-To-GO. Mobile Ready-To-GO. |
 
-> Do not hesitate to put your package on this list via [PR](https://github.com/kataras/golog/pulls)!
+> Do not hesitate to put your package on this list via [PR](https://github.com/almightylaxz/golog/pulls)!
 
 <!--
 ### ⚽ TODO
