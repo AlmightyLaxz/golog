@@ -42,7 +42,7 @@ var Levels = map[Level]*LevelMetadata{
 		Name:    "fatal",
 		RawText: "[FATAL]",
 		// white foreground but red background, it's nice
-		ColorfulText: "[" + pio.RedBackground("*") + "]",
+		ColorfulText: "[" + pio.RedBackground("!") + "]",
 	},
 	ErrorLevel: {
 		Name:         "error",
@@ -58,7 +58,7 @@ var Levels = map[Level]*LevelMetadata{
 	InfoLevel: {
 		Name:         "info",
 		RawText:      "[INFO]",
-		ColorfulText: "[" + pio.LightGreen("*") + "]",
+		ColorfulText: "[" + pio.Green("*") + "]",
 	},
 	DebugLevel: {
 		Name:         "debug",
